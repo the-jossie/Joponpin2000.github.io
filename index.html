@@ -1,458 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Jofedo</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">    
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        
-        <!-- Site Icons -->
-        <link rel="shortcut icon" href="images/logo_3.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="images/logo_2.png">
 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jofedo</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext" rel="stylesheet"
+    type="text/css" />
 
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="css/animate.css" />
-        <link href="fonts/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/owl.carousel.min.css" />
-        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-        <link rel="stylesheet" href="css/ionicons.min.css"/>
-        <link rel="stylesheet" href="css/lightbox.min.css"/>
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/slidein.css">
-    </head>
-    <body onload="myFunction()">
+  <!-- Site Icons -->
+  <link rel="shortcut icon" href="images/logo_3.png" type="image/x-icon" />
 
-        <div id="loader"></div>
-        
-        <div id="myDiv" class="animate-bottom">
-          <section id="top">
-            <div class="back">
-                <div class="overlay intro">
-                    <!--/ Nav Start /-->
-                    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-                      <div class="container-fluid">
-                        <a class="navbar-brand" href="">Jofedo</a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon">&#9776;</span>
-                          </button>
-                        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-                          <ul class="navbar-nav">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#services">Services</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#portfolio">Work</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </nav>
-                    <!--/ Nav End /-->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link href="fonts/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/ionicons.min.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/slidein.css" />
+</head>
 
-                    <div class="intro-content display-table">
-                      <div class="table-cell">
-                        <div class="container">
-                          <h1 class="intro-title mb-4">I am Joseph <span class="colo"> Idowu</span></h1>
-                          <p class="intro-subtitle"><span class="text-slider-items">CEO Jofedo.com,App Developer,Web Developer,Flutter Developer,Fullstack Developer</span><strong class="text-slider"></strong></p>
-                          <a href="#about" class="mouse smoothscroll">
-                            <span class="mouse-icon">
-                              <span class="mouse-wheel"></span>
-                            </span>
-                          </a>                    
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-          </section>
+<body onload="myFunction()">
+  <div id="loader"></div>
 
-          <section id="about">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="box-shadow-full">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="row">
-                          <div class="col-sm-6 col-md-5">
-                            <div class="about-img">
-                              <img src="images/picture.JPG" class="img-fluid rounded" alt="">
-                            </div>
-                          </div>
-                          <div class="col-sm-6 col-md-7">
-                            <div class="about-info">
-                              <p class="t-a-l"><span class="title-s">Name: </span><br /><span>Idowu Joseph</span></p>
-                              <p class="t-a-l"><span class="title-s">Profile: </span><br /><span>Full Stack developer</span></p>
-                              <p class="t-a-l"><span class="title-s">Email: </span><br /><span >idowuayanfeoluwa@gmail.com</span></p>
-                              <p class="t-a-l"><span class="title-s">Phone: </span><br /><span>+234 8082549243</span></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="skill-mf t-a-l">
-                          <p class="title-s t-a-l">Skills</p>
-                          <span>PHP / LARAVEL</span> <span class="pull-right"></span>
-                          <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <span>REACT / NODEJS</span> <span class="pull-right"></span>
-                          <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-<span>Flutter / Dart</span> <span class="pull-right"></span>
-                          <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <span>HTML5</span> <span class="pull-right"></span>
-                          <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <span>CSS3 / BOOTSTRAP</span> <span class="pull-right"></span>
-                          <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <span>JAVASCRIPT</span> <span class="pull-right"></span>
-                          <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="about-me">
-                          <h1 class="title-text t-a-l"> About me</h1>
-                          <p class="t-a-l">
-                            I am a Web developer and I develop responsive websites. While I'm still a college student, I help build websites for people all over the world.
-                          </p>
-                          <p class="t-a-l">
-                            Over the past few years as a programmer, I have built full-scale websites for e-commerces, blogs and portfolios. Though I'm a full-stack developer, yet i enjoy being the 'backend guy'.
-                          </p>
-<p class="t-a-l">Whatever goals I set, I ensure to complete them within stipulated time. I believe in team work. I am a quick learner and a great team player.
-                          </p>
-                          <p class="t-a-l">
-                            When I'm less occupied, I listen to Sheeran and play video games. I love to travel the world.
-                          </p>
-                          <p class="t-a-l">
-                            I design, build, deploy and consume.
-                            My portfolio is a representation of all that I've learned and accomplished as a Web Developer.
-                          </p>
-                          <a href="#contact" class="btn">Contact Me</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  <div id="myDiv" class="animate-bottom">
+    <section id="top">
+      <div class="back">
+        <div class="overlay intro">
+          <!--/ Nav Start /-->
+          <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Jofedo</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">&#9776;</span>
+              </button>
+              <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </section>
+          </nav>
+          <!--/ Nav End /-->
 
-          <section id="services">
-            <div class="text-center">
-              <h1 class="title-text"> SERVICES </h1>
-            </div>  
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="service-card">
-                      <div class="thumbnail btn">
-                        <span class="fa fa-tv fa-3x"></span>
-                      </div>
-                      <div class="caption">
-                        <h4>Web Development</h4>
-                        <p>Development of various Web Apps.</p>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="service-card">
-                      <div class="thumbnail btn">
-                        <span class="fa fa-code fa-3x"></span>
-                      </div>
-                      <div class="caption">
-                        <h4>Backend Development</h4>
-                        <p>Server-side logic as well as ensuring high responsiveness to requests from the frontend.</p>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="service-card">
-                      <div class="thumbnail btn">
-                        <span class="fa fa-mobile fa-4x"></span>
-                      </div>
-                      <div class="caption">
-                        <h4>Responsive Design</h4>
-                        <p>Designs of responsive and high performance Web Apps</p>
-                      </div>
-                    </div>
-                </div>
+          <div class="intro-content display-table">
+            <div class="table-cell">
+              <div class="container">
+                <h1 class="intro-title mb-4">
+                  I am Joseph <span class="colo"> Idowu</span>
+                </h1>
+                <p class="intro-subtitle">
+                  <span class="text-slider-items">App Developer,Fullstack Developer,Flutter Developer,Web
+                    Developer,Mobile Developer</span><strong class="text-slider"></strong>
+                </p>
+                <a href="#about" class="mouse smoothscroll">
+                  <span class="mouse-icon">
+                    <span class="mouse-wheel"></span>
+                  </span>
+                </a>
               </div>
             </div>
-          </section>
-
-          <section class="counter">
-            <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="causes">
-                        <div class="badge"><h2 class="counter-count">23</h2><span style="font-size: x-large;">+</span></div>
-                        <h4 class="causes-p">Months of Experience</h4>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="causes">
-                      <div class="badge"><h2 class="counter-count">20</h2><span style="font-size: x-large;">+</span></div>
-                      <h4 class="causes-p">Works Completed</h4>
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </section>
-
-          <section class="portfolio" id="portfolio">
-            <div class="text-center">
-              <h1 class="title-text"> MY Portfolio </h1>
-              <p>Check out some of my works</p>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="features js">
-                    <a href="images/project-1.jpg" data-lightbox="image-1" data-title="Project One">
-                      <div class="thumbnail">
-                        <img src="images/project-1.jpg" />
-                      </div>
-                      <div class="caption">
-                        <h5 class="t-a-l">Food Ordering System</h5>
-                        <p class="t-a-l">
-                          An online food ordering app.
-                          <span class="pull-right fa fa-plus btn"></span>
-                        </p>
-                        <div class="t-a-l">
-                          <span class="tag">Web Development</span> / 20 Jun 2020
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="features">
-                    <a href="images/project-2.jpg" data-lightbox="image-1" data-title="Project One">
-                      <div class="thumbnail">
-                        <img src="images/project-2.jpg" />
-                      </div>
-                      <div class="caption">
-                        <h5 class="t-a-l">Save One Soul Initiative</h5>
-                        <p class="t-a-l">
-                          A NGO charity website.
-                          <span class="pull-right fa fa-plus btn"></span>
-                        </p>
-                        <div class="t-a-l">
-                          <span class="tag">Web Design</span> / 20 Jun 2020
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="features">
-                    <a href="images/project-9.png" data-lightbox="image-1" data-title="Project Two">
-                      <div class="thumbnail">
-                        <img src="images/project-9.png" />
-                      </div>
-                      <div class="caption">
-                        <h5 class="t-a-l">MINI BLOG</h5>
-                        <p class="t-a-l">
-                          Ecommerce Accessories Shop
-                          <span class="pull-right fa fa-plus btn"></span>
-                        </p>
-                        <div class="t-a-l">
-                          <span class="tag">Fullstack Development</span> / 20 Jun 2020
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="features">
-                    <a href="images/project-6.png" data-lightbox="image-1" data-title="Project Two">
-                      <div class="thumbnail">
-                        <img src="images/project-6.png" />
-                      </div>
-                      <div class="caption">
-                        <h5 class="t-a-l">Timezone</h5>
-                        <p class="t-a-l">
-                          Ecommerce Watch Shop
-                          <span class="pull-right fa fa-plus btn"></span>
-                        </p>
-                        <div class="t-a-l">
-                          <span class="tag">Backend Development</span> / 20 Jun 2020
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="features">
-                    <a href="images/project-8.png" data-lightbox="image-1" data-title="Project Two">
-                      <div class="thumbnail">
-                        <img src="images/project-8.png" />
-                      </div>
-                      <div class="caption">
-                        <h5 class="t-a-l">VIOLET</h5>
-                        <p class="t-a-l">
-                         Online Shop
-                          <span class="pull-right fa fa-plus btn"></span>
-                        </p>
-                        <div class="t-a-l">
-                          <span class="tag">Backend Development</span> / 20 Jun 2020
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="features">
-                    <a href="images/project-7.png" data-lightbox="image-1" data-title="Project Two">
-                      <div class="thumbnail">
-                        <img src="images/project-7.png" />
-                      </div>
-                      <div class="caption">
-                        <h5 class="t-a-l">LOOKBOOK</h5>
-                        <p class="t-a-l">
-                          Ecommerce Accessories Shop
-                          <span class="pull-right fa fa-plus btn"></span>
-                        </p>
-                        <div class="t-a-l">
-                          <span class="tag">Backend Development</span> / 20 Jun 2020
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="contact">
-            <div class="container">
-              <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 contact-card">
-                          <h1 class="title-text">If Not Now, When?<br />Let's Work Together!</h1>
-                          <p style="font-family: cursive;">I can help you create a digital presence for your business to grow.</p>
-                  </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 contact-card">
-                  <form role="form" onsubmit="return(validate(this))">
-                        <div class="form-group">
-                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="E-mail" required>
-                        </div>
-                        <div class="form-group">
-                          <input type="text" name="subject" class="form-control" placeholder="Enter Subject" required>
-                      </div>
-                      <div class="form-group">
-                          <textarea name="message" class="form-control" cols="4" placeholder="Your Message" required></textarea>
-                      </div>
-                       <div class="form-group">
-                          <button type="submit" class="btn btn-success pull-right">Send message</button>
-                      </div>
-                      <div class="clearfix"></div>
-                  </form>
-            </div>
-              </div>
           </div>
-          </section>
+        </div>
+      </div>
+    </section>
 
-          <footer>
-            <div class="container">
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
               <div class="row">
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                    <h4>JOFEDO</h4>
-                    <p>Providing the best services to make your business grow and flourish</p>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                    <h4>Links</h4>
-                    <p><a href="#about">About</a></p>
-                    <p><a href="#services">Services</a></p>
-                    <p><a href="#portfolio">My Portfolio</a></p>
-                    <p><a href="#contact">Contact Me</a></p>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                    <h4>Follow Me</h4>
-                    <ul>
-                      <li>
-                        <a href="https://facebook.com/joseph.idowu.980"><i class="fa fa-facebook"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/i_josif"><i class="fa fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://instagram.com/i_josif"><i class="fa fa-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://github.com/Joponpin2000"><i class="fa fa-github"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://www.linkedin.com/in/idowu-joseph-9b9a5819b"><i class="fa fa-linkedin"></i></a>  
-                      </li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                  <h4>Subscribe to my NewsLetter</h4>
-                  <form action="" method="post">
-                    <div class="input-group mb-3">
-                      <input type="email" class="form-control" placeholder="Enter Email" required>
-                      <div class="input-group-append">
-                        <button class="btn" type="submit">Send</button>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="images/picture.JPG" class="img-fluid rounded" alt="profile picture" />
                       </div>
                     </div>
-                  </form>      
-              </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p class="t-a-l">
+                          <span class="title-s">Name: </span><br /><span>Idowu Joseph</span>
+                        </p>
+                        <p class="t-a-l">
+                          <span class="title-s">Profile: </span><br /><span>Full Stack developer</span>
+                        </p>
+                        <p class="t-a-l">
+                          <span class="title-s">Email: </span><br /><span>idowuayanfeoluwa@gmail.com</span>
+                        </p>
+                        <p class="t-a-l">
+                          <span class="title-s">Phone: </span><br /><span>+234 8082549243</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf t-a-l">
+                    <p class="title-s t-a-l">Skills</p>
+                    <span>FLUTTER / DART</span>
+                    <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>PHP / LARAVEL</span>
+                    <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>REACT / NODEJS</span>
+                    <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>HTML5</span> <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>CSS3 / BOOTSTRAP</span>
+                    <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>JAVASCRIPT</span>
+                    <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me">
+                    <h1 class="title-text t-a-l">About me</h1>
+                    <p class="t-a-l">
+                      I am a Web developer and I develop responsive websites.
+                      While I'm still a college student, I help build websites
+                      for people all over the world.
+                    </p>
+                    <p class="t-a-l">
+                      Over the past few years as a programmer, I have built
+                      full-scale websites for e-commerces, blogs and
+                      portfolios. Though I'm a full-stack developer, yet i
+                      enjoy being the 'backend guy'.
+                    </p>
+                    <p class="t-a-l">
+                      Whatever goals I set, I ensure to complete them within
+                      stipulated time. I believe in team work. I am a quick
+                      learner and a great team player.
+                    </p>
+                    <p class="t-a-l">
+                      When I'm less occupied, I listen to Sheeran and play
+                      video games. I love to travel the world.
+                    </p>
+                    <p class="t-a-l">
+                      I design, build, deploy and consume. My portfolio is a
+                      representation of all that I've learned and accomplished
+                      as a Web Developer.
+                    </p>
+                    <a href="#contact" class="btn">Contact Me</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </footer>
-
-
-          <div class="copyrights">
-            <div class="container">
-                <div class="row">
-                    <div style="text-align: center; width: 100%;">
-                        <p>&copy; 2020 <b><a href=""> Jofedo </a></b> Developed by : <a href=""><b>Idowu Joseph.</b></a> All Rights Reserved. </p>
-                    </div>
-                </div>
-            </div><!-- end container -->
-        </div><!-- end copyrights -->
-
-
-          
-          <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+          </div>
         </div>
+      </div>
+    </section>
 
-        
-        <script src="js/jquery-1.8.3.min.js"></script>
-        <script src="owl-carousel/owl-carousel.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+    <section id="services">
+      <div class="text-center">
+        <h1 class="title-text">SERVICES</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="thumbnail btn">
+                <span class="fa fa-tv fa-3x"></span>
+              </div>
+              <div class="caption">
+                <h4>Web App Development</h4>
+                <p>
+                  Development of various Web Apps. Specializes in both
+                  frontend and backend.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="thumbnail btn">
+                <span class="fa fa-mobile fa-4x"></span>
+              </div>
+              <div class="caption">
+                <h4>Mobile App Development</h4>
+                <p>
+                  Development of responsive and high performance Mobile Apps
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="thumbnail btn">
+                <span class="fa fa-code fa-3x"></span>
+              </div>
+              <div class="caption">
+                <h4>Restful APIs</h4>
+                <p>
+                  Server-side logic to design, build, deploy and consume APIs
+                  ensuring high responsiveness to requests from the frontend.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/typed.min.js"></script>
-        <script src="js/slideIn.js"></script>
-        <script src="js/custom.js"></script>
+    <section class="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="causes">
+              <div class="badge">
+                <h2 class="counter-count">30</h2>
+                <span style="font-size: x-large">+</span>
+              </div>
+              <h4 class="causes-p">Months of Experience</h4>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="causes">
+              <div class="badge">
+                <h2 class="counter-count">22</h2>
+                <span style="font-size: x-large">+</span>
+              </div>
+              <h4 class="causes-p">Works Completed</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </body>
+    <section class="portfolio" id="portfolio">
+      <div class="text-center">
+        <h1 class="title-text">MY Portfolio</h1>
+        <p>Check out some of my works</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="features js">
+              <a href="images/project-1.jpg" data-lightbox="image-1" data-title="Project One">
+                <div class="thumbnail">
+                  <img src="images/project-1.jpg" />
+                </div>
+                <div class="caption">
+                  <h5 class="t-a-l">Food Ordering System</h5>
+                  <p class="t-a-l">
+                    An online food ordering app.
+                    <span class="pull-right fa fa-plus btn"></span>
+                  </p>
+                  <div class="t-a-l">
+                    <span class="tag">Web Development</span> / 20 Jun 2020
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="features">
+              <a href="images/project-2.jpg" data-lightbox="image-1" data-title="Project One">
+                <div class="thumbnail">
+                  <img src="images/project-2.jpg" />
+                </div>
+                <div class="caption">
+                  <h5 class="t-a-l">Save One Soul Initiative</h5>
+                  <p class="t-a-l">
+                    A NGO charity website.
+                    <span class="pull-right fa fa-plus btn"></span>
+                  </p>
+                  <div class="t-a-l">
+                    <span class="tag">Web Design</span> / 20 Jun 2020
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="features">
+              <a href="images/project-9.png" data-lightbox="image-1" data-title="Project Two">
+                <div class="thumbnail">
+                  <img src="images/project-9.png" />
+                </div>
+                <div class="caption">
+                  <h5 class="t-a-l">MINI BLOG</h5>
+                  <p class="t-a-l">
+                    Ecommerce Accessories Shop
+                    <span class="pull-right fa fa-plus btn"></span>
+                  </p>
+                  <div class="t-a-l">
+                    <span class="tag">Fullstack Development</span> / 20 Jun
+                    2020
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="features">
+              <a href="images/project-6.png" data-lightbox="image-1" data-title="Project Two">
+                <div class="thumbnail">
+                  <img src="images/project-6.png" />
+                </div>
+                <div class="caption">
+                  <h5 class="t-a-l">Timezone</h5>
+                  <p class="t-a-l">
+                    Ecommerce Watch Shop
+                    <span class="pull-right fa fa-plus btn"></span>
+                  </p>
+                  <div class="t-a-l">
+                    <span class="tag">Backend Development</span> / 20 Jun 2020
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="features">
+              <a href="images/project-8.png" data-lightbox="image-1" data-title="Project Two">
+                <div class="thumbnail">
+                  <img src="images/project-8.png" />
+                </div>
+                <div class="caption">
+                  <h5 class="t-a-l">VIOLET</h5>
+                  <p class="t-a-l">
+                    Online Shop
+                    <span class="pull-right fa fa-plus btn"></span>
+                  </p>
+                  <div class="t-a-l">
+                    <span class="tag">Backend Development</span> / 20 Jun 2020
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="features">
+              <a href="images/project-7.png" data-lightbox="image-1" data-title="Project Two">
+                <div class="thumbnail">
+                  <img src="images/project-7.png" />
+                </div>
+                <div class="caption">
+                  <h5 class="t-a-l">LOOKBOOK</h5>
+                  <p class="t-a-l">
+                    Ecommerce Accessories Shop
+                    <span class="pull-right fa fa-plus btn"></span>
+                  </p>
+                  <div class="t-a-l">
+                    <span class="tag">Backend Development</span> / 20 Jun 2020
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 contact-card">
+            <h1 class="title-text">
+              If Not Now, When?<br />Let's Work Together!
+            </h1>
+            <p style="font-family: cursive">
+              I can help you create a digital presence for your business to
+              grow.
+            </p>
+          </div>
+          <!-- <div class="col-sm-12 col-md-6 col-lg-6 contact-card">
+              <form role="form" onsubmit="return(validate(this))">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="subject"
+                    class="form-control"
+                    placeholder="Enter Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    cols="4"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-success pull-right">
+                    Send message
+                  </button>
+                </div>
+                <div class="clearfix"></div>
+              </form> -->
+          <div class="col-sm-12 col-md-6 col-lg-6 contact-card">
+            <a href="mailto:idowuayanfeoluwa@gmail.com?subject = Feedback" class="btn btn-success btn-block pull-right">
+              Send message
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <h4>JOFEDO</h4>
+            <p>
+              Providing the best services to make your business grow and
+              flourish
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <h4>Links</h4>
+            <p><a href="#about">About</a></p>
+            <p><a href="#services">Services</a></p>
+            <p><a href="#portfolio">My Portfolio</a></p>
+            <p><a href="#contact">Contact Me</a></p>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <h4>Follow Me</h4>
+            <ul>
+              <li>
+                <a href="https://facebook.com/joseph.idowu.980"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/i_josif"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://instagram.com/i_josif"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/Joponpin2000"><i class="fa fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/idowu-joseph-9b9a5819b"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <h4>Subscribe to my NewsLetter</h4>
+            <form action="" method="post">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Enter Email" required />
+                <div class="input-group-append">
+                  <button class="btn" type="submit">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyrights">
+      <div class="container">
+        <div class="row">
+          <div style="text-align: center; width: 100%">
+            <p>
+              &copy; 2020 <b><a href=""> Jofedo </a></b> Developed by :
+              <a href=""><b>Idowu Joseph.</b></a> All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+  </div>
+
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="owl-carousel/owl-carousel.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/slideIn.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
 </html>
