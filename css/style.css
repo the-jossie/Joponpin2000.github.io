@@ -42,8 +42,7 @@ a:hover {
 LOADER
 ======================================*/
 
-
-#loader {
+/* #loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -55,7 +54,7 @@ LOADER
   }
   
   #loader:before {
-    content: "Jofedo.com";
+    content: "Dev-Jo";
     color: #4798FF;
     font-size: xx-large;
     font-weight: bolder;
@@ -88,9 +87,9 @@ LOADER
       100% {
         opacity: 100%;
       }
-  }
+  } */
 /*Center the loader*/
-/*
+
 #loader {
   position: fixed;
   top: 0;
@@ -125,7 +124,7 @@ LOADER
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
-*/
+
 /*Add animation to "page content"*/
 
 .animate-about {
@@ -339,7 +338,7 @@ section {
     margin-bottom: 50px;
 }
 
-section.counter, section#contact {
+section.counter {
     border-radius: 7px;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.212);
     padding: 50px;
@@ -462,6 +461,10 @@ SERVICES
     margin-bottom: 10px;
 }
 
+.portfolio .thumbnail img.mobile-img {
+    width: 50% !important;
+}
+
 .portfolio .tag {
     color: #4798FF;
 }
@@ -548,12 +551,6 @@ COUNTER
 CONTACT
 ======================================*/
 
-#contact {
-    background-color: #ffffff;
-    border-radius: 7px;
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.212);
-}
-
 .contact-card {
     background-color: white;
     padding: 30px;
@@ -584,11 +581,13 @@ CONTACT
 footer
 ======================================*/
 footer {
-    background-color: #4798FF;
-    padding: 30px;
+    background: url(../images/about.jpg) no-repeat fixed center top / cover;
     color: white;
 }
 
+footer .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 footer a {
     color: inherit;
 }
@@ -614,6 +613,7 @@ footer ul {
 footer ul li {
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .dmtop {
